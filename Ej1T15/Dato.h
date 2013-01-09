@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface Dato : NSObject
-
+@property(nonatomic,strong) NSString *dato;
 @end
