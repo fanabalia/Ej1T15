@@ -18,6 +18,7 @@
 		FA804885169DE7C400443921 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA804884169DE7C400443921 /* Default-568h@2x.png */; };
 		FA804888169DE7C400443921 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA804886169DE7C400443921 /* MainStoryboard.storyboard */; };
 		FA80488B169DE7C400443921 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA80488A169DE7C400443921 /* ViewController.m */; };
+		FA804897169DECBF00443921 /* Dato.m in Sources */ = {isa = PBXBuildFile; fileRef = FA804896169DECBF00443921 /* Dato.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		FA804887169DE7C400443921 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FA804889169DE7C400443921 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FA80488A169DE7C400443921 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA804895169DECBF00443921 /* Dato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dato.h; sourceTree = "<group>"; };
+		FA804896169DECBF00443921 /* Dato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dato.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				FA804889169DE7C400443921 /* ViewController.h */,
 				FA80488A169DE7C400443921 /* ViewController.m */,
 				FA804875169DE7C400443921 /* Supporting Files */,
+				FA804895169DECBF00443921 /* Dato.h */,
+				FA804896169DECBF00443921 /* Dato.m */,
 			);
 			path = Ej1T15;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				FA80487B169DE7C400443921 /* main.m in Sources */,
 				FA80487F169DE7C400443921 /* AppDelegate.m in Sources */,
 				FA80488B169DE7C400443921 /* ViewController.m in Sources */,
+				FA804897169DECBF00443921 /* Dato.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +300,7 @@
 				FA804890169DE7C400443921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
